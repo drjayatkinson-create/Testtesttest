@@ -1,0 +1,1 @@
+New seminoma adjuvant carboplatin NNT teaching panel. SWENOTECA V 14.3% vs 3.9%, NNT 10; SWENOTECA VII risk positive 15.5% vs 9.3%, NNT 17; VII no factors 4.0% vs 2.2%, NNT 56. Cohort-based arithmetic only, not Wagner-specific or randomised effect. Upload all site files to GitHub repository root, including new swenoteca-nnt.js.
