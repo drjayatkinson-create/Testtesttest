@@ -1,0 +1,1 @@
+Upload ALL files in this ZIP to the ROOT of your GitHub Pages repository. Replace index.html, calculator.html and style.css. Keep existing unrelated resources. IMPORTANT: this is an original-paper-only version; it intentionally removes numerical extrapolation and shows the source charts. Verify every page after deployment.
