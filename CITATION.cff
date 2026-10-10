@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the software and the original Wagner et al. prediction model."
+title: "Dr Jay: Stage I Testicular Cancer Relapse Risk Explorer"
+type: software
+authors:
+  - family-names: Atkinson
+    given-names: Jay
+version: 0.1.0
+date-released: 2026-10-09
+url: "https://drjay.uk"
+abstract: "Educational, approximate reconstruction of the seminoma prognostic model; not validated for clinical decisions."
