@@ -1,25 +1,21 @@
-# Dr Jay — Uro60 relapse risk explorer
+# Uro60 MDT Toolkit — project starter
 
-Static, mobile-friendly educational website. No build step or server required.
+Designed to match the existing drjay.uk site: navy background, blue highlights, DRJAY.UK header, panels, doctor-only disclaimer.
 
-## Preview
-Open `index.html` locally, then follow the calculator link.
+## Contents
+- index.html — toolkit landing page with MDT / FRCS modes, search and specialty filters
+- toolkit.css — matching design system
+- toolkit.js — catalogue, interactive PSA doubling time and BOOI/BCI educational prototypes
+- VALIDATION.md — clinical QA requirements and implementation roadmap
 
-## Publish on GitHub Pages
-1. Create a **public** repository (for example `drjay-site`) and upload these files to its root.
-2. In Settings → Pages, select Deploy from a branch, `main`, `/ (root)`.
-3. For the **apex domain** `drjay.uk`, enter it in Pages → Custom domain and save **before** configuring DNS.
-4. In IONOS → Domains & SSL → DNS, configure `A` records for host `@` pointing to GitHub Pages: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`. Remove conflicting default website records only after checking what they serve. Preserve MX/TXT email records.
-5. Optional: `www` CNAME → `YOUR-GITHUB-USERNAME.github.io` (not the repository path).
-6. Verify the domain in GitHub, then enable Enforce HTTPS when available. DNS changes can take time.
+## Deployment
+This is **not deployed** to drjay.uk. To preview, open `index.html` in a browser. For a GitHub Pages deployment, place these files in a new `toolkit/` directory of the existing repository and link to `/toolkit/` from the homepage. Do not replace the existing root `index.html` or calculator.html.
 
-Official instructions: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
+## Clinical status
+PROTOTYPE — NOT VALIDATED FOR CLINICAL USE. Renal page implements educational prototypes for Leibovich 2003, VENUSS and IMDC/Heng; remaining scores are catalogued but not implemented. Implement only after primary-source verification, version selection, test vectors and clinical review.
 
-## Academic credit
-The implementation is attributed to Dr Jay Atkinson; the prognostic model is attributed to Wagner et al. A DOI has **not** yet been registered. Add a licence after deciding reuse terms, then archive a release with Zenodo. Do not claim the original model as your own.
+## Renal release
+Open `renal.html` for the three source-linked renal scores. Both modes share a single calculation function; clinical review remains outstanding.
 
-## Safety and validation
-The seminoma calculator is an illustrative approximation based on rounded HRs and 6% reference risk, not the original fitted Cox model. Non-seminoma numerical prediction is intentionally disabled pending source verification. It is **not** suitable for clinical decision-making. No patient information is collected or transmitted.
-
-## Testing
-`node tests.js` checks baseline, factor ordering, and that all 24 seminoma combinations produce finite values.
+## Renal diagrams (v3)
+Four original SVG schematics are in `diagrams/` and embedded in both renal pages: RENAL nephrometry, Bosniak v2019, RCC venous TNM, and score selection. SVG assets are lightweight and work on GitHub Pages without dependencies. Diagrams are educational simplifications, not diagnostic images.

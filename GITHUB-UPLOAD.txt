@@ -1,0 +1,11 @@
+GitHub upload: drjayatkinson-create/Testtesttest
+1. Open https://github.com/drjayatkinson-create/Testtesttest
+2. Open Add file > Upload files.
+3. Drag the FILES INSIDE this uro60-mdt-toolkit folder into a folder named toolkit/ on GitHub (keep folder hierarchy). GitHub web upload can preserve folder paths when dragging a folder from desktop; verify displayed target paths before committing.
+4. Commit to main.
+5. Visit https://drjay.uk/toolkit/renal.html and https://drjay.uk/toolkit/renal-imaging.html.
+Do not overwrite the existing root index.html, calculator.html, or CNAME. The toolkit index.html belongs at toolkit/index.html.
+Alternatively use Git CLI from repository root: mkdir -p toolkit; cp -R /path/to/uro60-mdt-toolkit/. toolkit/; git add toolkit; git commit -m 'Add Uro60 renal toolkit'; git push.
+This is an educational prototype, not a validated clinical device.
+
+IMPORTANT: Include the entire diagrams/ folder in toolkit/ when uploading. SVG files are linked by relative paths.
