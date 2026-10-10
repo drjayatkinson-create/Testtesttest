@@ -1,0 +1,474 @@
+{
+  "seminoma": [
+    {
+      "ldh": false,
+      "hcg": false,
+      "lvi": false,
+      "hilum": "none",
+      "risk": 6,
+      "n": 235,
+      "col": 1
+    },
+    {
+      "ldh": true,
+      "hcg": false,
+      "lvi": false,
+      "hilum": "none",
+      "risk": 10,
+      "n": 94,
+      "col": 2
+    },
+    {
+      "ldh": false,
+      "hcg": false,
+      "lvi": false,
+      "hilum": "rete",
+      "risk": 10,
+      "n": 99,
+      "col": 3
+    },
+    {
+      "ldh": false,
+      "hcg": false,
+      "lvi": true,
+      "hilum": "none",
+      "risk": 10,
+      "n": 8,
+      "col": 4
+    },
+    {
+      "ldh": false,
+      "hcg": true,
+      "lvi": false,
+      "hilum": "none",
+      "risk": 11,
+      "n": 45,
+      "col": 5
+    },
+    {
+      "ldh": false,
+      "hcg": false,
+      "lvi": false,
+      "hilum": "soft",
+      "risk": 16,
+      "n": 41,
+      "col": 6
+    },
+    {
+      "ldh": true,
+      "hcg": false,
+      "lvi": false,
+      "hilum": "rete",
+      "risk": 17,
+      "n": 45,
+      "col": 7
+    },
+    {
+      "ldh": true,
+      "hcg": false,
+      "lvi": true,
+      "hilum": "none",
+      "risk": 17,
+      "n": 7,
+      "col": 8
+    },
+    {
+      "ldh": true,
+      "hcg": true,
+      "lvi": false,
+      "hilum": "none",
+      "risk": 17,
+      "n": 49,
+      "col": 9
+    },
+    {
+      "ldh": false,
+      "hcg": false,
+      "lvi": true,
+      "hilum": "rete",
+      "risk": 18,
+      "n": 11,
+      "col": 10
+    },
+    {
+      "ldh": false,
+      "hcg": true,
+      "lvi": false,
+      "hilum": "rete",
+      "risk": 19,
+      "n": 44,
+      "col": 11
+    },
+    {
+      "ldh": false,
+      "hcg": true,
+      "lvi": true,
+      "hilum": "none",
+      "risk": 19,
+      "n": 3,
+      "col": 12
+    },
+    {
+      "ldh": true,
+      "hcg": false,
+      "lvi": false,
+      "hilum": "soft",
+      "risk": 25,
+      "n": 29,
+      "col": 13
+    },
+    {
+      "ldh": false,
+      "hcg": false,
+      "lvi": true,
+      "hilum": "soft",
+      "risk": 27,
+      "n": 18,
+      "col": 14
+    },
+    {
+      "ldh": false,
+      "hcg": true,
+      "lvi": false,
+      "hilum": "soft",
+      "risk": 28,
+      "n": 18,
+      "col": 15
+    },
+    {
+      "ldh": true,
+      "hcg": false,
+      "lvi": true,
+      "hilum": "rete",
+      "risk": 28,
+      "n": 9,
+      "col": 16
+    },
+    {
+      "ldh": true,
+      "hcg": true,
+      "lvi": false,
+      "hilum": "rete",
+      "risk": 29,
+      "n": 39,
+      "col": 17
+    },
+    {
+      "ldh": true,
+      "hcg": true,
+      "lvi": true,
+      "hilum": "none",
+      "risk": 29,
+      "n": 3,
+      "col": 18
+    },
+    {
+      "ldh": false,
+      "hcg": true,
+      "lvi": true,
+      "hilum": "rete",
+      "risk": 31,
+      "n": 4,
+      "col": 19
+    },
+    {
+      "ldh": true,
+      "hcg": false,
+      "lvi": true,
+      "hilum": "soft",
+      "risk": 40,
+      "n": 16,
+      "col": 20
+    },
+    {
+      "ldh": true,
+      "hcg": true,
+      "lvi": false,
+      "hilum": "soft",
+      "risk": 42,
+      "n": 23,
+      "col": 21
+    },
+    {
+      "ldh": false,
+      "hcg": true,
+      "lvi": true,
+      "hilum": "soft",
+      "risk": 44,
+      "n": 7,
+      "col": 22
+    },
+    {
+      "ldh": true,
+      "hcg": true,
+      "lvi": true,
+      "hilum": "rete",
+      "risk": 47,
+      "n": 11,
+      "col": 23
+    },
+    {
+      "ldh": true,
+      "hcg": true,
+      "lvi": true,
+      "hilum": "soft",
+      "risk": 62,
+      "n": 15,
+      "col": 24
+    }
+  ],
+  "nonseminoma": [
+    {
+      "ec": "absent",
+      "lvi": false,
+      "hilar": false,
+      "size": "2.1",
+      "col": 1
+    },
+    {
+      "ec": "absent",
+      "lvi": false,
+      "hilar": false,
+      "size": "3.2",
+      "col": 2
+    },
+    {
+      "ec": "absent",
+      "lvi": false,
+      "hilar": false,
+      "size": "4.5",
+      "col": 3
+    },
+    {
+      "ec": "absent",
+      "lvi": false,
+      "hilar": true,
+      "size": "2.1",
+      "col": 4
+    },
+    {
+      "ec": "absent",
+      "lvi": false,
+      "hilar": true,
+      "size": "3.2",
+      "col": 5
+    },
+    {
+      "ec": "absent",
+      "lvi": false,
+      "hilar": true,
+      "size": "4.5",
+      "col": 6
+    },
+    {
+      "ec": "absent",
+      "lvi": true,
+      "hilar": false,
+      "size": "2.1",
+      "col": 7
+    },
+    {
+      "ec": "absent",
+      "lvi": true,
+      "hilar": false,
+      "size": "3.2",
+      "col": 8
+    },
+    {
+      "ec": "absent",
+      "lvi": true,
+      "hilar": false,
+      "size": "4.5",
+      "col": 9
+    },
+    {
+      "ec": "absent",
+      "lvi": true,
+      "hilar": true,
+      "size": "2.1",
+      "col": 10
+    },
+    {
+      "ec": "absent",
+      "lvi": true,
+      "hilar": true,
+      "size": "3.2",
+      "col": 11
+    },
+    {
+      "ec": "absent",
+      "lvi": true,
+      "hilar": true,
+      "size": "4.5",
+      "col": 12
+    },
+    {
+      "ec": "nonpred",
+      "lvi": false,
+      "hilar": false,
+      "size": "2.1",
+      "col": 13
+    },
+    {
+      "ec": "nonpred",
+      "lvi": false,
+      "hilar": false,
+      "size": "3.2",
+      "col": 14
+    },
+    {
+      "ec": "nonpred",
+      "lvi": false,
+      "hilar": false,
+      "size": "4.5",
+      "col": 15
+    },
+    {
+      "ec": "nonpred",
+      "lvi": false,
+      "hilar": true,
+      "size": "2.1",
+      "col": 16
+    },
+    {
+      "ec": "nonpred",
+      "lvi": false,
+      "hilar": true,
+      "size": "3.2",
+      "col": 17
+    },
+    {
+      "ec": "nonpred",
+      "lvi": false,
+      "hilar": true,
+      "size": "4.5",
+      "col": 18
+    },
+    {
+      "ec": "nonpred",
+      "lvi": true,
+      "hilar": false,
+      "size": "2.1",
+      "col": 19
+    },
+    {
+      "ec": "nonpred",
+      "lvi": true,
+      "hilar": false,
+      "size": "3.2",
+      "col": 20
+    },
+    {
+      "ec": "nonpred",
+      "lvi": true,
+      "hilar": false,
+      "size": "4.5",
+      "col": 21
+    },
+    {
+      "ec": "nonpred",
+      "lvi": true,
+      "hilar": true,
+      "size": "2.1",
+      "col": 22
+    },
+    {
+      "ec": "nonpred",
+      "lvi": true,
+      "hilar": true,
+      "size": "3.2",
+      "col": 23
+    },
+    {
+      "ec": "nonpred",
+      "lvi": true,
+      "hilar": true,
+      "size": "4.5",
+      "col": 24
+    },
+    {
+      "ec": "pred",
+      "lvi": false,
+      "hilar": false,
+      "size": "2.1",
+      "col": 25
+    },
+    {
+      "ec": "pred",
+      "lvi": false,
+      "hilar": false,
+      "size": "3.2",
+      "col": 26
+    },
+    {
+      "ec": "pred",
+      "lvi": false,
+      "hilar": false,
+      "size": "4.5",
+      "col": 27
+    },
+    {
+      "ec": "pred",
+      "lvi": false,
+      "hilar": true,
+      "size": "2.1",
+      "col": 28
+    },
+    {
+      "ec": "pred",
+      "lvi": false,
+      "hilar": true,
+      "size": "3.2",
+      "col": 29
+    },
+    {
+      "ec": "pred",
+      "lvi": false,
+      "hilar": true,
+      "size": "4.5",
+      "col": 30
+    },
+    {
+      "ec": "pred",
+      "lvi": true,
+      "hilar": false,
+      "size": "2.1",
+      "col": 31
+    },
+    {
+      "ec": "pred",
+      "lvi": true,
+      "hilar": false,
+      "size": "3.2",
+      "col": 32
+    },
+    {
+      "ec": "pred",
+      "lvi": true,
+      "hilar": false,
+      "size": "4.5",
+      "col": 33
+    },
+    {
+      "ec": "pred",
+      "lvi": true,
+      "hilar": true,
+      "size": "2.1",
+      "col": 34
+    },
+    {
+      "ec": "pred",
+      "lvi": true,
+      "hilar": true,
+      "size": "3.2",
+      "col": 35
+    },
+    {
+      "ec": "pred",
+      "lvi": true,
+      "hilar": true,
+      "size": "4.5",
+      "col": 36
+    }
+  ]
+}
