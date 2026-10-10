@@ -1,0 +1,1 @@
+CLINICAL QA PENDING: Leibovich 2003 pT1b and other original coefficients, VENUSS, RENAL nephrometry, UISS/SSIGN must be independently validated against primary source tables and worked examples before publishing. Bosniak evidence statistics represent different denominators: upgrade, resected malignancy, surveillance estimates, NOT transformation.
