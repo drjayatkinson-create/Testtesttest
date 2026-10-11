@@ -1,21 +1,22 @@
-# Uro60 MDT Toolkit — project starter
+# Uro60 renal FRCS revision toolkit — v6
 
-Designed to match the existing drjay.uk site: navy background, blue highlights, DRJAY.UK header, panels, doctor-only disclaimer.
+## Included
+- `renal.html`: Leibovich 2003, VENUSS, IMDC and RENAL nephrometry interactive revision.
+- `bosniak.html`: Bosniak v2019 illustrated teaching (not a calculator).
+- `renal.js`, `nephrometry.js`, `toolkit.css`: local dependencies. No external scripts or images required.
+- `homepage-PREVIEW-DO-NOT-DEPLOY.html`: **not** intended to overwrite the live homepage.
 
-## Contents
-- index.html — toolkit landing page with MDT / FRCS modes, search and specialty filters
-- toolkit.css — matching design system
-- toolkit.js — catalogue, interactive PSA doubling time and BOOI/BCI educational prototypes
-- VALIDATION.md — clinical QA requirements and implementation roadmap
+## Deploy after sign-off
+Place the five toolkit files in a `/renal/` folder in the GitHub Pages repo, then link to `/renal/renal.html` from the organ-based homepage. Do not upload the preview homepage. The live testicular calculator at `/calculator.html` remains unchanged.
 
-## Deployment
-This is **not deployed** to drjay.uk. To preview, open `index.html` in a browser. For a GitHub Pages deployment, place these files in a new `toolkit/` directory of the existing repository and link to `/toolkit/` from the homepage. Do not replace the existing root `index.html` or calculator.html.
+## Editorial caution
+Educational, not patient-facing or clinical decision support. No patient data storage. Pathological scoring models require histology, staging and source-context checks. Bosniak morphology is an educational schematic, not a diagnostic image.
 
-## Clinical status
-PROTOTYPE — NOT VALIDATED FOR CLINICAL USE. Renal page implements educational prototypes for Leibovich 2003, VENUSS and IMDC/Heng; remaining scores are catalogued but not implemented. Implement only after primary-source verification, version selection, test vectors and clinical review.
+## Sources
+- EAU RCC prognostic factors: https://uroweb.org/guidelines/renal-cell-carcinoma/chapter/prognostic-factors
+- VENUSS original: https://pmc.ncbi.nlm.nih.gov/articles/PMC6775651/
+- Silverman Bosniak v2019: https://doi.org/10.1148/radiol.2019182646
+- Kutikov & Uzzo RENAL: https://doi.org/10.1016/j.urology.2009.01.035
 
-## Renal release
-Open `renal.html` for the three source-linked renal scores. Both modes share a single calculation function; clinical review remains outstanding.
-
-## Renal diagrams (v3)
-Four original SVG schematics are in `diagrams/` and embedded in both renal pages: RENAL nephrometry, Bosniak v2019, RCC venous TNM, and score selection. SVG assets are lightweight and work on GitHub Pages without dependencies. Diagrams are educational simplifications, not diagnostic images.
+## Remaining checks
+Live desktop/mobile browser smoke testing and clinician sign-off before publication.
